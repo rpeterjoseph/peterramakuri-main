@@ -1,0 +1,89 @@
+---
+title: "Atherosclerosis: A Review of Molecular Mechanisms and Emerging Therapeutic Targets"
+subtitle: "Part I of the series Understanding the Cardiovascular System"
+abstract: "This literature review synthesizes current understanding of atherosclerotic plaque formation, from endothelial dysfunction and lipid retention through to plaque instability, and surveys emerging therapeutic strategies targeting inflammation rather than lipids alone."
+author: "Peter Ramakuri"
+orcid: "0000-0000-0000-0000"
+publicationType: "literature-review"
+topics: ["cardiovascular-medicine", "human-biology"]
+keywords: ["atherosclerosis", "endothelial dysfunction", "inflammation", "LDL cholesterol", "cardiovascular disease"]
+publishedDate: "2026-03-02"
+version: "1.1"
+revisedDate: "2026-04-18"
+peerReviewStatus: "independent-not-peer-reviewed"
+publicationStatus: "published"
+disclosureStatement: "The author declares no financial or personal conflicts of interest relevant to this work. This review was not commissioned or funded by any institution or company."
+series: "understanding-the-cardiovascular-system"
+seriesOrder: 1
+featured: true
+versionHistory:
+  - version: "1.1"
+    date: "2026-04-18"
+    note: "Expanded discussion of IL-6 inhibition trials and corrected a citation in the plaque rupture section."
+---
+
+Atherosclerosis remains the pathological substrate of most ischemic cardiovascular disease worldwide. While it is often taught as a disease of lipid accumulation, the modern understanding treats it as a chronic inflammatory condition of the arterial wall, with lipids acting as one of several triggers rather than the sole cause. This review summarizes the mechanistic stages of atherosclerosis and surveys therapies that have emerged from reframing the disease in inflammatory terms.
+
+## Endothelial Dysfunction as the Initiating Event
+
+The vascular endothelium is not a passive lining but an active regulator of vascular tone, coagulation, and leukocyte trafficking. <Definition term="Endothelial dysfunction">A reduction in the bioavailability of vasodilators, particularly nitric oxide, together with increased expression of adhesion molecules on the endothelial surface.</Definition> is widely considered the earliest identifiable step in atherogenesis.[^1]
+
+Hemodynamic factors matter: disturbed, low-shear flow at arterial branch points and curvatures is strongly associated with early lesion formation, while regions of high laminar shear stress tend to be relatively protected. This distribution explains the characteristic focal, rather than diffuse, pattern of atherosclerotic disease.
+
+<Callout type="educational" title="Why Location Matters">
+Atherosclerotic plaques preferentially form at bifurcations of the carotid, coronary, and femoral arteries — precisely where blood flow is least uniform. This is one reason imaging protocols specifically examine these branch points.
+</Callout>
+
+## Lipid Retention and Modification
+
+Once the endothelial barrier is compromised, low-density lipoprotein (LDL) particles infiltrate the subendothelial space, where they are retained by binding to proteoglycans in the extracellular matrix. Retained LDL undergoes oxidative and enzymatic modification, generating oxidized LDL (oxLDL), which is a potent activator of local inflammatory signaling.
+
+Macrophages, recruited via endothelial adhesion molecules, internalize oxLDL through scavenger receptors that are not subject to the same feedback inhibition as the native LDL receptor. Unregulated uptake produces lipid-laden macrophages — foam cells — the histological hallmark of the fatty streak, the earliest visible lesion of atherosclerosis.
+
+## The Inflammatory Plaque
+
+As lesions mature, a fibrous cap composed of smooth muscle cells and extracellular matrix forms over a lipid- and debris-rich necrotic core. Plaque stability, rather than plaque size alone, determines clinical risk. A thin fibrous cap infiltrated by activated macrophages secreting matrix metalloproteinases is mechanically weaker and more prone to rupture than a thick, collagen-rich cap — even if the underlying plaque is smaller in volume.
+
+The mechanical stress on a vessel wall can be approximated using the Law of Laplace, which relates wall tension to pressure and radius:
+
+$$
+T = P \times r
+$$
+
+where $T$ is wall tension, $P$ is intraluminal pressure, and $r$ is the vessel radius. Although a simplification, this relationship illustrates why larger-caliber vessels under high pressure — and plaques that erode into the lumen, effectively increasing local radius — experience greater mechanical stress at the shoulder regions of the plaque, a common site of rupture.
+
+<PullQuote cite="Libby, P. (2021)">
+Atherosclerosis is not simply a plumbing problem of narrowed pipes; it is an active immunologic disease of the vessel wall.
+</PullQuote>
+
+## From Lipid-Centric to Inflammation-Centric Therapy
+
+Statins remain first-line therapy for atherosclerotic cardiovascular disease, and their benefit is generally attributed to LDL lowering. However, statins also possess anti-inflammatory ("pleiotropic") effects independent of lipid lowering, which may partly explain why cardiovascular event reduction exceeds what LDL reduction alone would predict.
+
+The clearest test of the inflammatory hypothesis came from trials targeting inflammatory pathways directly, without affecting lipid levels.
+
+| Trial | Target | Population | Key Finding |
+| --- | --- | --- | --- |
+| CANTOS | IL-1β (canakinumab) | Prior MI, elevated CRP | Reduced recurrent cardiovascular events independent of lipid levels |
+| COLCOT | Broad anti-inflammatory (colchicine) | Recent MI | Reduced composite cardiovascular endpoint |
+| LoDoCo2 | Broad anti-inflammatory (colchicine) | Chronic coronary disease | Reduced cardiovascular events |
+
+<Callout type="clinical" title="Interpreting Trial Evidence">
+These findings support inflammation as a modifiable, independent contributor to cardiovascular risk, but anti-inflammatory agents are not currently substitutes for lipid-lowering therapy. As of this writing, they are used adjunctively in selected populations under specialist guidance, not as first-line monotherapy.
+</Callout>
+
+## Open Questions
+
+Several questions remain unresolved in the literature: the relative contribution of innate versus adaptive immune activation across different lesion stages, whether residual inflammatory risk can be reliably identified in primary care using existing biomarkers such as high-sensitivity CRP, and how the calcification of long-standing plaques modifies rupture risk. Reviews of this kind should be read as a synthesis of the current published evidence rather than a settled account.
+
+## References
+
+<ReferenceList items={[
+  { text: "Libby P. The changing landscape of atherosclerosis. Nature." },
+  { text: "Ridker PM, et al. Antiinflammatory therapy with canakinumab for atherosclerotic disease (CANTOS)." },
+  { text: "Tardif JC, et al. Efficacy and safety of low-dose colchicine after myocardial infarction (COLCOT)." },
+  { text: "Nidorf SM, et al. Colchicine in patients with chronic coronary disease (LoDoCo2)." },
+  { text: "Libby P, Hansson GK. From focal lipid storage to systemic inflammation: JACC review." }
+]} />
+
+[^1]: Endothelial dysfunction can be present years before any angiographically visible lesion, which is why it is considered a preclinical marker of atherosclerotic risk rather than a diagnosis in itself.
