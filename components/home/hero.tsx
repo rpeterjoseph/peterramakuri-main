@@ -7,10 +7,12 @@ export function Hero({ article }: { article: Article }) {
   return (
     <section className="border-b border-line">
       <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
-        <p className="font-sans text-[12px] uppercase tracking-wide text-ink-faint">Featured</p>
-        <div className="mt-4 max-w-3xl">
+        <p className="border-t-2 border-ink pt-3 font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-faint">
+          Featured
+        </p>
+        <div className="mt-6 max-w-3xl">
           <PublicationTypeBadge type={article.publicationType} />
-          <h1 className="mt-3 font-serif text-[38px] font-medium leading-[1.1] tracking-tight text-ink sm:text-[52px]">
+          <h1 className="mt-3 font-serif text-[40px] font-medium leading-[1.08] tracking-tight text-ink sm:text-[56px]">
             <Link href={`/writing/${article.slug}`} className="link-underline">
               {article.title}
             </Link>

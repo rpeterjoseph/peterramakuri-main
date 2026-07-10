@@ -9,7 +9,11 @@ export function PageHeader({
 }) {
   return (
     <div className="border-b border-line pb-8">
-      {eyebrow && <p className="font-sans text-[12px] uppercase tracking-wide text-ink-faint">{eyebrow}</p>}
+      {eyebrow && (
+        <p className="border-t-2 border-ink pt-3 font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-faint">
+          {eyebrow}
+        </p>
+      )}
       <h1 className="mt-2 font-serif text-[36px] font-medium leading-tight tracking-tight text-ink sm:text-[44px]">
         {title}
       </h1>

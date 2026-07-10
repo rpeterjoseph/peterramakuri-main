@@ -11,7 +11,7 @@ export function PublicationTypeBadge({
   return (
     <span
       className={cn(
-        "font-sans text-[12px] font-semibold uppercase tracking-wide text-accent",
+        "font-sans text-[12px] font-semibold uppercase tracking-[0.1em] text-accent",
         className
       )}
     >

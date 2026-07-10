@@ -11,7 +11,9 @@ export function AboutAuthorSection() {
           PR
         </div>
         <div>
-          <p className="font-sans text-[12px] uppercase tracking-wide text-ink-faint">About the Author</p>
+          <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.14em] text-ink-faint">
+            About the Author
+          </p>
           <h2 className="mt-2 font-serif text-2xl text-ink">{author.name}</h2>
           <p className="mt-1 font-sans text-[13.5px] text-ink-muted">{author.role}</p>
           <p className="mt-4 max-w-measure font-sans text-[15px] leading-relaxed text-ink-muted">

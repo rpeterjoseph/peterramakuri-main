@@ -4,7 +4,9 @@ export function NewsletterSection() {
   return (
     <section className="border-t border-line">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
-        <p className="font-sans text-[12px] uppercase tracking-wide text-ink-faint">Publication Updates</p>
+        <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.14em] text-ink-faint">
+          Publication Updates
+        </p>
         <h2 className="mt-2 max-w-xl font-serif text-2xl text-ink">
           Receive an email when a new article is published.
         </h2>
